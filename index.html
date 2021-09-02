@@ -1,0 +1,49 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index_style.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <h2 class="head py-5 fw-bold ">Bookmarker</h2>
+
+        <div class="bookmark container p-5 text-center">
+            <h3 class="py-3 fw-bold">Bookmark your favorite sites</h3>
+
+                    
+        <label class="form-label  fw-bold">Site Name</label>
+        <input placeholder="Bookmark name" id="sitename" class="m-auto mb-3 w-75 form-control">
+
+        <label  class="form-label fw-bold ">Site URL</label>
+        <input placeholder="Website URL" id="siteurl" class="m-auto mb-3 w-75 form-control">
+
+        <button onclick="addbookmark()" class="btn btn-primary text-white p-2">submite</button>
+
+        </div>
+
+        <div class="mt-4">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                      <th>Bookmark Name</th>
+                      <th>Visit Website</th>
+                      <th>Delete Bookmark</th>
+                    </tr>
+                  </thead>
+                  <tbody  id="submit">
+
+       
+                  </tbody>
+            </table>
+        </div>
+
+    </div>
+
+
+
+    
+<script src="js/mine.js"></script>
+</body>
+</html>
